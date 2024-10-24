@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repositories</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>GitHub Repositories</h1>
+        <button id="toggleDarkMode">Toggle Dark Mode</button>
+    </header>
+
+    <main>
+        <input type="text" id="username" placeholder="Enter GitHub Username">
+        <select id="languageFilter">
+            <option value="">All Languages</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <!-- Add more languages as needed -->
+        </select>
+        <button id="fetchButton">Fetch Repositories</button>
+        <div id="repoContainer"></div>
+        <div id="pagination"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 GitHub Repositories App</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
